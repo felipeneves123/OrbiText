@@ -1,0 +1,28 @@
+from os import system
+from time import sleep 
+system('cls')
+
+while True:
+    print("Escolha uma das opções abaixo;\n 1 para fazer login;\n 2 para se registrar\n 0 sair")
+    try:
+        opção = int(input("escolha a opção desejada:"))
+    except ValueError:
+        system('cls')
+        print("Escolha apenas os números definidos")
+        continue
+        
+    system('cls')
+
+    if opção == 1:
+        system('cls')
+        login = input("Coloque seu login:")
+        senha = input("Coloque a sua senha:")
+    elif opção == 2:
+        system('cls')
+    elif opção == 0:
+        system('cls')
+        print("Saindo do sistema...")
+        sleep(1)
+        system("cls")
+        print("Obrigado por usar o ORBITEXT!")
+        break
