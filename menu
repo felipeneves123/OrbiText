@@ -68,8 +68,8 @@ def verificar(senha):
     "Qwerty1"]
     if len(senha) < 5:
         return print('senha com poucas letras, ela deve ter mais de 5 caracteres')
-    if len(senha) > 8:
-        return print('senha muito grande, ela deve ter menos de 8 caracteris')
+    if len(senha) > 12:
+        return print('senha muito grande, ela deve ter menos de 12 caracteris')
     if not any(conferir.isdigit() for conferir in senha):
         print('A senha deve ter ao menos um numero')
         return
