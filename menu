@@ -26,3 +26,60 @@ while True:
         system("cls")
         print("Obrigado por usar o ORBITEXT!")
         break
+
+
+import string
+def verificar(senha):
+    senhas_faceis = ["123456",
+    "qwerty123",
+    "qwerty1",
+    "123456789",
+    "12345678",
+    "12345",
+    "102030",
+    "admin",
+    "Brasil",
+    "Qwerty123",
+    "1234567",
+    "Qwerty1!",
+    "Qwerty123!",
+    "password",
+    "1234",
+    "baseball",
+    "dragon",
+    "football",
+    "monkey",
+    "letmein",
+    "abc123",
+    "111111",
+    "mustang",
+    "access",
+    "shadow",
+    "master",
+    "michael",
+    "superman",
+    "696969",
+    "123123",
+    "batmanQwerty12",
+    "Qwerty1234",
+    "Qwerty1?",
+    "1234567890",
+    "Qwerty123?",
+    "Qwerty1"]
+    if len(senha) < 5:
+        return print('senha com poucas letras, ela deve ter mais de 5 caracteres')
+    if len(senha) > 8:
+        return print('senha muito grande, ela deve ter menos de 8 caracteris')
+    if not any(conferir.isdigit() for conferir in senha):
+        print('A senha deve ter ao menos um numero')
+        return
+    if not any(conferir.isupper() for conferir in senha):
+        print('A senha deve ter ao menos uma letra maiúscula')
+        return
+    if not any(conferir in string.punctuation for conferir in senha):
+        print('deve ter pelomenos algum algum caracteri especial')
+        return
+    if senha in senhas_faceis:
+        print('senha considerada facil, tente outra')
+        return
+    return "valida"
