@@ -83,3 +83,24 @@ def verificar(senha):
         print('senha considerada facil, tente outra')
         return
     return "valida"
+
+
+    if numero == 1:
+        system('cls')
+        print('escolha o idioma no qual se deseja fazer a leitura')
+        while True:
+            
+    elif numero == 2:
+        system('cls')
+    elif numero == 3:
+        system('cls')
+    elif numero == 4:
+        system('cls')
+    elif numero == 0:
+        system('cls')
+        print("Saindo do sistema...")
+        sleep(1)
+        system("cls")
+        print("Agradeçemos o uso do ORBITEXT")
+        break
+    
