@@ -12,10 +12,10 @@ while True:
     escolha = input("Digite sua opção: ")
     if escolha == "1":
         verificação.cadastrar_usuario(verificação.usuarios)
+        os.system('cls')
     elif escolha == "2":
         verificação.fazer_login(verificação.usuarios)
     elif escolha == "0":
-        verificação.salvar_usuarios(verificação.usuarios)
         print("Saindo do programa. Até logo! ")
         break
     else:

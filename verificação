@@ -17,7 +17,6 @@ def carregar_usuarios():
         return []
 
 def salvar_usuarios(lista_usuarios):
-    """Salva a lista de usuários no arquivo JSON."""
     try:
         with open(ARQUIVO_USUARIOS, 'w') as arquivo:
             json.dump(lista_usuarios, arquivo, indent=4) 
@@ -27,7 +26,7 @@ def salvar_usuarios(lista_usuarios):
 usuarios = carregar_usuarios() 
 
 def validar_email(email):
-    """Verifica se o email segue um formato válido (usando Regex)."""
+
     regex = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
     
     if re.fullmatch(regex, email):
