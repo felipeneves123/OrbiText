@@ -1,7 +1,82 @@
 [
     [
-        "fepe",
-        "Felipe55@",
-        "adffe@rcer.com"
+        "usuarioteste0",
+        "Usuario123@",
+        "",
+        []
+    ],
+    [
+        "Felipe1teste",
+        "Felipe123@",
+        "",
+        []
+    ],
+    [
+        "teste3",
+        "Testee3@",
+        "teste3@gmail.com",
+        []
+    ],
+    [
+        "naosei1",
+        "Naosei123@",
+        "naosei@gmail.com",
+        []
+    ],
+    [
+        "testando123",
+        "Testando1@",
+        "testando@gmail.com",
+        []
+    ],
+    [
+        "felipao123",
+        "felipE123@",
+        "felipe.acioly@ufrpe.br",
+        []
+    ],
+    [
+        "usuariorandom",
+        "Usuario123@",
+        "usuario123@gmail.com",
+        []
+    ],
+    [
+        "teste1234",
+        "Teste123@",
+        "teste1234@gmail.com",
+        []
+    ],
+    [
+        "pauloteste24",
+        "Paulo123$",
+        "pauloh2309186@gmail.com",
+        []
+    ],
+    [
+        "paulohenrique234",
+        "Paulo123$",
+        "paulo.henriqueb@ufrpe.br",
+        []
+    ],
+    [
+        "cayovictormenezes",
+        "Cayo123@",
+        "cayo.menezes@ufrpe.br",
+        []
+    ],
+    [
+        "1",
+        "Matheus12@",
+        "matheus.jsilva@ufrpe.br",
+        [
+            {
+                "texto_original": "His name is Balto and he loves to play fetch with tennis balls.",
+                "traducao": "O nome dele \u00e9 Balto e ele adora brincar de buscar bolas de t\u00eanis.",
+                "idioma": "english",
+                "titulo": "Where do you live?",
+                "visibilidade": "publico"
+            }
+        ]
     ]
 ]
